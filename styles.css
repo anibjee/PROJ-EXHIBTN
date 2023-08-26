@@ -1,0 +1,107 @@
+/* Reset some default styling */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 5rem;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Products section styles */
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

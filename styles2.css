@@ -1,0 +1,82 @@
+/* Reset and base styles */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header styles */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+/* ... (other header styles) ... */
+
+/* About section styles */
+
+.about {
+  padding: 3rem;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* ... (other footer styles) ... */

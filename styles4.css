@@ -1,0 +1,93 @@
+/* Reset and base styles */
+
+/* ... (base styles) ... */
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+/* ... (header styles) ... */
+
+/* Products section styles */
+
+.products {
+  padding: 3rem;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.product-series {
+  margin-bottom: 3rem;
+}
+
+.product-series h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
